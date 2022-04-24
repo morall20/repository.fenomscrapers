@@ -10,6 +10,11 @@
 	<extension point="xbmc.service" library="lib/service.py" start="startup" />
 	<extension point="xbmc.python.module" library="lib" /> <!-- Must be placed after xbmc.python.pluginsource, otherwise the addon does not show in the repository. -->
 	<extension point="xbmc.addon.metadata">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/</datadir>
+			</dir>
 		<reuselanguageinvoker>false</reuselanguageinvoker>
 		<summary lang="en">FenomScrapers Module</summary>
 		<description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
